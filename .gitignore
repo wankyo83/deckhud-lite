@@ -1,0 +1,10 @@
+node_modules/
+.pnpm-store/
+dist/
+out/
+*.zip
+Decky-AI/
+.template-reference/
+.mangopeel-reference/
+__pycache__/
+*.pyc
