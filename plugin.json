@@ -1,0 +1,10 @@
+{
+  "name": "DeckHUD Lite",
+  "author": "DeckHUD Lite contributors",
+  "flags": [],
+  "api_version": 1,
+  "publish": {
+    "tags": ["utility", "mangohud", "battery"],
+    "description": "A compact battery, power, remaining-time and clock HUD for SteamOS."
+  }
+}

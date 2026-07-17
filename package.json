@@ -1,0 +1,34 @@
+{
+  "name": "deckhud-lite",
+  "version": "0.2.7",
+  "description": "A small, resilient SteamOS battery HUD controller for Decky Loader.",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["decky", "steam-deck", "steamos", "mangohud", "mangoapp"],
+  "author": "DeckHUD Lite contributors",
+  "license": "MIT",
+  "devDependencies": {
+    "@decky/rollup": "^1.0.2",
+    "@decky/ui": "^4.11.0",
+    "@rollup/rollup-linux-x64-musl": "^4.53.3",
+    "@types/react": "19.1.1",
+    "@types/react-dom": "19.1.1",
+    "@types/react-router": "5.1.20",
+    "rollup": "^4.53.3",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@decky/api": "^1.1.3",
+    "react-icons": "^5.5.0",
+    "tslib": "^2.8.1"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": ["react", "react-dom"]
+    }
+  }
+}
